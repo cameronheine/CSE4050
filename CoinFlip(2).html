@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel = "stylesheet" href = "CoinFlip(2).css">
+ <title> Coin Flip </title>
+</head>
+<body>
+
+ <h1>A Simple Coin Flip</h1>
+ <p> Click on the "FLIP" button to flip the coin </p>
+ 
+ <button id = "click" type = "button" onclick = "click()">FLIP</button>
+
+   <div class = "star">
+    <input id = "coin" type="image" src="unnamed.png" onclick="click();"/>
+   </div>
+
+<script>
+document.getElementById('click').onclick = click;
+ var heads = 0;
+ var tails = 0;
+ function click() {
+    x = Math.random();
+    if(x <= 0.5) {
+	   document.getElementById("coin").src = "half_dollar_head.png";
+	   console.log("It's Heads");
+	 }
+	else{
+	   document.getElementById("coin").src = "half_dollar_tail.png";
+	   console.log("It's tails");
+	 } 
+ };
+</script>
+</body>
+</html>
