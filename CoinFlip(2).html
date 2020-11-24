@@ -5,31 +5,21 @@
  <title> Coin Flip </title>
 </head>
 <body>
-
- <h1>A Simple Coin Flip</h1>
- <p> Click on the "FLIP" button to flip the coin </p>
+ <div class = "header">
+   <h1>A Simple Coin Flip</h1>
+   <p> Click on the "FLIP" button to flip the coin and "RESET" button to start again </p>
+ </div>
+ 
  
  <button id = "click" type = "button" onclick = "click()">FLIP</button>
+ <button id = "click2" type = "button" onclick = "click2()">RESET</button>
+ 
 
    <div class = "star">
     <input id = "coin" type="image" src="unnamed.png" onclick="click();"/>
    </div>
 
-<script>
-document.getElementById('click').onclick = click;
- var heads = 0;
- var tails = 0;
- function click() {
-    x = Math.random();
-    if(x <= 0.5) {
-	   document.getElementById("coin").src = "half_dollar_head.png";
-	   console.log("It's Heads");
-	 }
-	else{
-	   document.getElementById("coin").src = "half_dollar_tail.png";
-	   console.log("It's tails");
-	 } 
- };
-</script>
+<script src= "CoinFlip(2).js" defer></script>
+
 </body>
 </html>
