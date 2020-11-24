@@ -2,3 +2,9 @@
   height:200px;
   width:200px;
 }
+.header {
+   background-color: #650E6E;
+   color: #F3EEF3; 
+   padding: 10px;
+   text-align: center;
+}
