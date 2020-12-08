@@ -1,0 +1,24 @@
+{
+ "data": {
+  { 
+   "name": "Coin", 
+   "Occupation": "Currency",
+   "Age": "A Lot",
+   "Info": "A coin is a small, flat, (usually, depending on the country or value) round piece of metal or plastic used primarily as a medium of exchange or legal tender.",
+  }
+  
+  {
+   "name": "Heads",
+   "Occupation": "Holding brains",
+   "Age": "300,000 years old",
+   "Info": "A head is the part of an organism which usually includes the ears, brain, forehead, cheeks, chin, eyes, nose, and mouth.",
+  }
+ 
+  {
+   "name": "Tails",
+   "Occupation": "Mascot",
+   "Age": "28 Years Old",
+   "Info": "Miles Tails Prower is a fictional character in Sega's Sonic the Hedgehog series, and the title character's best friend, sidekick, and most recurring ally.", 
+  } 
+ }
+}
